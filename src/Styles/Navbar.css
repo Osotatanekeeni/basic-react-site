@@ -1,0 +1,23 @@
+.link {
+    font-family: 'Chewy', cursive;
+    padding: 30px;
+    font-size: 1.8em;
+    margin-top: -30px;
+}
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 150px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav-items > ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+}
