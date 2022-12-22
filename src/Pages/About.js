@@ -13,7 +13,7 @@ export default function About() {
             <p>Insert some meaningful text in here</p>
           </div>
         </div>
-        <div className='landing-image'>
+        <div className='about-image'>
           <img src={AboutImage} alt="Contact" width={600} />
         </div>
       </div>
