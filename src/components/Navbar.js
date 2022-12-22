@@ -10,7 +10,7 @@ export default function Navbar() {
       </div>
       <div className='nav-items'>
         <ul>
-            <li className='link'><a href='home'>Home</a></li>
+            <li className='link'><a href='/'>Home</a></li>
             <li className='link'><a href='contact'>Contact</a></li>
             <li className='link'><a href='about'>About</a></li>
         </ul>
