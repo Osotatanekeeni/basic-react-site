@@ -1,4 +1,4 @@
-[landing page](public/landing_page.png)
+![landing page](public/landing_page.png)
 
 # Getting Started with Create React App
 
