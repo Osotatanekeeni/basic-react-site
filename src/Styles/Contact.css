@@ -1,0 +1,56 @@
+body {
+    background-color: #F2E4D6;
+}
+
+.landing-content {
+    display: flex;
+}
+
+.landing-text {
+    position: absolute;
+    left: 11vw;
+    top: 35vh;
+    text-align: left;
+}
+
+.landing-image {
+    position: absolute;
+    right: 5vw;
+    
+}
+
+.landing-heading {
+    font-family: 'Fredoka One', cursive;
+    font-size: 4em;
+    overflow: hidden;
+    animation: 1.5s slide-right;
+}
+
+.contact-details {
+    margin-top: -20px;
+    font-size: 1.5em;
+    overflow: hidden;
+    animation: 1.5s slide-up;
+}
+
+@keyframes slide-up {
+    from {
+        margin-top: 100%;
+        height: 300%;
+    } 
+    to {
+        margin-top: 0%;
+        height: 100%;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -100%;
+        width: 300%;
+    } 
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
